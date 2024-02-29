@@ -1,0 +1,15 @@
+#test_header{
+    text-align: center;
+}
+
+#questions_box{
+    padding-left: 300px;
+    background-color: white;
+
+}
+
+#submit_button{
+    margin-left: 48%;
+    width: 100px;
+    height: 40px;
+}

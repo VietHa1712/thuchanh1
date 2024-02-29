@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hệ thống thi trắc nghiệm</title>
+    <link rel="stylesheet" href="style_test.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="test_header">
+        <h1>Bài thi kết thúc học phần</h1>
+    </div>
+    <div id="questions_box">
+        <h2>
+            Câu hỏi đúng/sai
+        </h2>
+        <div id="yn_questions">
+            <h3>Câu 1:</h3>
+            <input type="radio" name="1" >
+            <label for="">Đúng</label><br>
+            <input type="radio" name="1">
+            <label for="">Sai</label><br>
+        </div>
+        <h2>
+            Chọn 1 trong 4 đáp án  
+        </h2>
+            
+        <div id="abcd_questions">
+            <h3>Câu 2:</h3>
+            <input type="radio" name="2" >
+            <label for="">A</label><br>
+            <input type="radio" name="2">
+            <label for="">B</label><br>
+            <input type="radio" name="2">
+            <label for="">C</label><br>
+            <input type="radio" name="2">
+            <label for="">D</label><br>
+        </div>
+        <h2>
+            Chọn các đáp án đúng
+        </h2>
+        <div id="multians_quenstions">
+            <h3>Câu 3:</h3>
+            <input type="checkbox" name="3" >
+            <label for="">Đáp án 1</label><br>
+            <input type="checkbox" name="3" >
+            <label for="">Đáp án 2</label><br>
+            <input type="checkbox" name="3" >
+            <label for="">Đáp án 3</label><br>
+            <input type="checkbox" name="3" >
+            <label for="">Đáp án 4</label><br>
+            <input type="checkbox" name="3" >
+            <label for="">Đáp án 5</label><br>
+        </div>
+        <h2>
+            Câu hỏi tự luận
+        </h2>
+        <div id="text_questions">
+            <h3>Câu 4:</h3>
+            <div>
+                Đáp án
+            </div>
+            <input type="text"><br>
+        </div>
+    </div>
+    <div>
+        <button id="submit_button" type="button" onclick="submit()">
+            Nộp bài
+        </button>
+    </div>
+</body>
+</html>
